@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2%;
+}
+
+h1{
+    font-family: Helvetica;
+    font-size: 48px;
+    color: #666;
+    float: right;
+}
+
+.circle-area{
+    float: left;
+    margin-top: 20px;
+    position: relative;
+}
+
+.circle{
+   background: blue;
+   width: 100px;
+   height: 100px;
+   border-radius: 100px;
+   display: block;
+   float: left;
+   position: absolute;
+   bottom: 10px;
+}
+
+.commands{
+    clear: right;
+    float: right;
+    width: 10%;
+}
+
+.commands *{
+    clear: both;
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 14px;
+}
+
+button{
+    background: blue;
+    color: white;
+    border: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
